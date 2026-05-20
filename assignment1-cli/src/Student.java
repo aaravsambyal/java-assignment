@@ -43,8 +43,7 @@ public class Student {
         this.marks = marks;
     }
 
-    // This method decides how a student object is displayed on the screen.
-    @Override
+      @Override
     public String toString() {
         return "ID: " + id + ", Name: " + name + ", Course: " + course + ", Marks: " + marks;
     }
